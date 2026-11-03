@@ -1,0 +1,7 @@
+interface:
+  display_name: "书面表达教练"
+  short_description: "理解与评价你的 Prompt，从结构和措辞教学，支持先改后评的表达练习"
+  default_prompt: "请使用 $expression-coach，结合上下文理解我的 Prompt，评分并从全局与局部教我改进，最后给出优化稿。"
+
+policy:
+  allow_implicit_invocation: true

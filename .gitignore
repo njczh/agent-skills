@@ -1,0 +1,14 @@
+# Local audit reports, source snapshots, and scratch work stay outside this repo.
+.local/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Local maintainer documentation
+/docs/
