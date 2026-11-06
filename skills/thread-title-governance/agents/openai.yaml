@@ -1,0 +1,4 @@
+interface:
+  display_name: "Thread 名称治理"
+  short_description: "仅主 agent 在首轮及生命周期变化时维护 Thread 标题"
+  default_prompt: "使用 $thread-title-governance 检查并维护当前主 Thread 的名称与生命周期状态。"
